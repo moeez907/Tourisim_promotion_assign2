@@ -177,3 +177,60 @@ footer {
     margin: 0;
     flex: 1;
 }
+.contact {
+    max-width: 600px;
+    margin: 40px auto;
+    background: white;
+    padding: 30px 25px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+form {
+    width: 350px;
+    margin: 50px auto;
+    padding: 25px;
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+
+    display: flex;
+    flex-direction: column;
+}
+
+/* Inputs & textarea */
+form input,
+form textarea {
+    margin-top: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 14px;
+    outline: none;
+    transition: 0.3s;
+}
+
+/* Focus effect */
+form input:focus,
+form textarea:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0,123,255,0.3);
+}
+
+/* Button styling */
+form button {
+    margin-top: 20px;
+    padding: 10px 15px;
+    background: #007bff;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 15px;
+    align-self: flex-start;
+    transition: 0.3s;
+}
+
+/* Hover effect */
+form button:hover {
+    background: #0056b3;
+}
